@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+header{
+    display: flex;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 6vw;
+    height: 6vw;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
